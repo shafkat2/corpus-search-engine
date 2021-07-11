@@ -1,0 +1,355 @@
+XML Technology - W3C
+
+
+ W3C
+
+StandardsParticipateMembershipAbout W3C
+ 
+
+
+
+
+
+
+Site Navigation
+    Standards 
+       
+        Web Design and Applications
+        Web Architecture
+        Semantic Web
+        XML Technology
+        Web of Services
+        Web of Devices
+        Browsers and Authoring Tools
+        All Standards and Drafts
+        About W3C Standards
+       
+       
+
+
+
+       
+         
+          Skip
+          W3C » 
+          Standards » 
+          XML Technology
+                    
+     
+    
+
+   XML Technology
+On this page ? 
+    technology topics
+    •
+  
+    news
+    •
+  
+    upcoming events and talks
+      
+
+
+
+XML Technologies including XML, XML Namespaces, XML Schema, XSLT, Efficient XML Interchange (EXI), and other related standards.
+
+
+
+
+   
+      
+         
+            XML Essentials 
+            
+         
+         
+        XML is shouldered by a set of essential technologies such as the
+        infoset and namespaces. They address issues when using XML in
+        specific applications contexts.
+      
+      
+      
+         
+            Schema 
+            
+         
+         
+        Formal descriptions of vocabularies create flexibility in
+        authoring environments and quality control chains. W3C’s XML Schema,
+	SML, and data binding technologies provide the tools for quality
+	control of XML data.
+      
+      
+      
+         
+            Security 
+            
+         
+         
+        Manipulating data with XML requires sometimes integrity,
+        authentication and privacy. XML signature, encryption, and
+	xkms can help create a secure environment for XML.
+      
+      
+   
+   
+      
+         
+            Transformation 
+            
+         
+         
+	  Very frequently one wants to transform XML content
+	  into other formats (including other XML formats).
+	  XSLT and XPath are very powerful tools for
+	  creating different
+        representations of XML content.
+      
+      
+      
+         
+            Query 
+            
+         
+         
+        XQuery (supported by XPath)
+	is a query language for XML to extract data, similar
+        to the role of SQL for databases, or SPARQL for the Semantic
+	Web.
+      
+      
+      
+         
+            Components 
+            
+         
+         
+        The XML ecosystem is using additional tools to create a
+        richer environment for using and manipulating XML
+        documents. These components include style sheets, xlink
+	xml:id, xinclude, xpointer, xforms, xml fragments, and
+	events.
+      
+      
+   
+   
+      
+         
+            Processing 
+            
+         
+         
+        A processing model defines what
+        operations should be performed in what order
+	on an XML document.
+      
+      
+      
+         
+            Internationalization 
+            
+         
+         
+        W3C has worked with the community on the internationalization
+	of XML, for instance for specifying the language of XML content.
+      
+      
+      
+         
+            Publishing 
+            
+         
+         
+XML grew out of the technical publication community.
+       Use XSL-FO to publish even large
+       or complex multilingual XML
+       documents to HTML, PDF or other
+       formats; include SVG diagrams
+       and MathML formulas in the output.
+      
+      
+   
+
+
+
+News 
+
+
+
+
+
+
+
+
+Announcing The Unicode Standard, Version 7.0
+
+
+
+17 June
+2014
+
+from 
+
+Internationalization Activity Blog » w3cXMLCore
+
+
+
+
+Version 7.0
+of the Unicode Standardis now available, adding 2,834 new
+characters. This latest version adds the new currency symbols for
+the Russian ruble and Azerbaijani manat, approximately 250 emoji
+(pictographic symbols), many other symbols, and 23 new lesser-used
+and historic scripts, as well as character additions to many
+existing scripts. These additions extend support for written
+languages of North America, China, India, other Asian countries,
+and Africa. See the link above for full details.Most of the new emoji characters derive from characters in
+long-standing and widespread use in Wingdings and Webdings
+fonts.Major enhancements were made to the Indic script properties. New
+property values were added to enable a more algorithmic approach to
+rendering Indic scripts. These include properties for joining
+behavior, new classes for numbers, and a further division of the
+syllabic categories of viramas and rephas. With these enhancements,
+the default rendering for newly added Indic scripts can be
+significantly improved.Unicode character properties were extended to the new
+characters. The old characters have enhancements to Script and
+Alphabetic properties, and casing and line-breaking behavior. There
+were also nearly 3,000 new Cantonese pronunciation entries, as well
+as new or clarified stability policies for promoting interoperable
+implementations.Two other important Unicode specifications are maintained in
+synchrony with the Unicode Standard, and have updates for Version
+7.0. These will be released at the same time:
+UTS #10,
+Unicode Collation Algorithm— the standard for sorting Unicode
+text
+
+UTS #46,
+Unicode IDNA Compatibility Processing— for processing of
+non-ASCII URLs (IDNs)
+
+
+
+
+
+
+Workshop report: Summary of the LD4LT group kickoff / LIDER
+roadmapping workshop
+
+
+
+11 June
+2014
+
+from 
+
+Internationalization Activity Blog » w3cXMLCore
+
+The 
+LIDER project has
+published a report on the first 
+Linked Data for
+Language Technology event, which was held 21st March in
+alignment with the European Data Forum in Athens. 
+
+Read the report.Industry stakeholders from many areas (localization, publishing,
+language technology applications etc.) and key researchers from
+linked data and language technology discussed promises and
+challenges around linguistic linked data. The report summarizes all
+presentations and includes an initial list of use cases and
+requirements for linguistic linked data. This and the overall
+outcome of the event will feed into work of the 
+LD4LT group (see
+especially the 
+
+LD4LT latest draft version of use cases), and the field of
+multilingual linked data in general.The 
+LD4LT group is part
+of the MultilingualWeb community – learn more about 
+related
+projects.
+
+
+
+
+
+
+Last Call draft published for Encoding spec
+
+
+
+06 June
+2014
+
+from 
+
+Internationalization Activity Blog » w3cXMLCore
+
+A Last Call Working Draft of 
+
+Encodinghas been published.While encodings have been defined to some extent,
+implementations have not always implemented them in the same way,
+have not always used the same labels, and often differ in dealing
+with undefined and former proprietary areas of encodings. This
+specification attempts to fill those gaps so that new
+implementations do not have to reverse engineer encoding
+implementations of the market leaders and existing implementations
+can converge.The body of this spec is an exact copy of the WHATWG version as
+of the date of its publication, intended to provide a stable
+reference for other specifications. We are hoping for people to
+review the specification and send comments about any technical
+areas that need attention (see the Status section for details).Please send comments by 
+1 July 2014.
+
+
+
+
+
+
+One more week to FEISGILTT – learn about and contribute to the
+future of Web and localization standards!
+
+
+
+28 May
+2014
+
+from 
+
+Internationalization Activity Blog » w3cXMLCore
+
+On 4 June and as part of the Localization World conference in
+Dublin, the 
+
+FEISGILTT event will again provide an opportunity to discuss
+latest developments around localization and multilingual Web
+technologies. The event is sponsored by the 
+LIDER project.Highlights include updates about ITS 2.0 and XLIFF 2.0, and a
+session about usage scenarios for linguistic linked data in
+localization. Speakers include Kevin O’Donnell (Microsoft), Bryan
+Schnabel (Tektronix), Yves Savourel (Enlaso) and many more.
+Register nowto meet the key players around standards that
+will influence today’s and future business.
+
+
+
+
+
+
+Slides for the MultilingualWeb and LIDER workshops available
+
+
+
+15 May
+2014
+
+from 
+
+Internationalization Activity Blog » w3cXMLCore
+
+
+
+The slides from the 
+
+MultilingualWeb workshop (including several posters) and the 
+
+LIDER roadmapping workshopare 

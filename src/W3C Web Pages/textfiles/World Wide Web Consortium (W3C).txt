@@ -1,0 +1,269 @@
+
+
+
+World Wide Web Consortium (W3C)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ W3C
+
+
+
+W3C By Region
+All
+Australia
+Österreich
+(Austria)
+België
+(Belgium)
+Botswana
+Brasil
+(Brazil)
+??
+(China)
+Suomi (Finland)
+Deutschland
+(Germany)
+?????? (Greece)
+France
+Magyarország
+(Hungary)
+???? (India)
+Éire (Ireland)
+????? (Israel)
+Italia (Italy)
+??? (Japan)
+?? (Korea)
+Lesotho
+Lëtzebuerg
+(Luxembourg)
+??????
+(Morocco)
+Namibia
+Nederland
+(Netherlands)
+?????? (Russia)
+Sénégal
+España (Spain)
+South Africa
+Swatini
+(Swaziland)
+Sverige
+(Sweden)
+United Kingdom
+ 
+
+
+
+
+
+Standards
+Participate
+Membership
+About W3C
+
+ 
+
+
+
+
+
+
+
+
+
+Site Navigation
+Standards 
+
+
+Web Design and
+Applications
+
+Web Architecture
+
+Semantic Web
+
+XML Technology
+Web of Services
+
+Web of Devices
+
+Browsers and Authoring Tools
+
+… or view all
+
+Web and Industry 
+
+Web of Data
+Digital Publishing
+Mobile Web
+TV and Broadcasting
+
+Web for All 
+
+Accessibility
+Internationalization
+W3C
+A to Z
+
+Community and Business Groups 
+
+Current Groups
+Proposed Groups
+
+Working Groups 
+
+Specifications by group
+Participant guidebook
+
+Dev Resources 
+
+
+
+
+W3Conf
+More ways to participate
+
+Member-only Home 
+
+Join a
+Group
+Get
+Member Account
+
+
+
+
+
+Skip
+
+
+
+
+
+News
+
+   
+      
+         
+            W3C Announces Program, Opens Registration for 20th Anniversary Symposium
+         
+         
+             18 June 2014  | Archive
+         
+      
+       W3C today announced the program and opened registration for W3C20 Anniversary Symposium: The Future of the Web, which takes place 29 October in Santa Clara, California.
+Confirmed speakers are:
+
+Tim Berners-Lee, Inventor of the Web and W3C Director
+Vinton Cerf, Vice President and Chief Internet Evangelist at Google
+Fadi Chehadé, Chief Executive Officer of ICANN
+David-Michel Davies, Executive Director, The Webby Awards & the International Academy of Digital Arts & Sciences
+Di-Ann Eisnor, Head of Platforms and Partnerships, Community Geographer at Waze
+Sue Gardner, Executive Director of the Wikimedia Foundation
+Alberto Ibargüen, President and CEO, Knight Foundation
+Jun Murai, Dean and Professor at Keio University
+Sandy Pentland, Professor of Media Arts and Sciences at MIT
+Lee Rainie, Director of the Pew Research Center’s Internet & American Life Project
+Anders Wahlquist, CEO and Founding Partner of B-Reel
+
+Please join Tim Berners-Lee and other global strategists, business leaders and developers for an exciting afternoon of insights and discussion about how to keep the Web strong, followed by a gala dinner. W3C will also live stream the Symposium.
+W3C20 is made possible by the generosity of sponsors Intel (Platinum), ICANN (Silver), and the John S. and James L. Knight Foundation (Silver).
+Registration is open to the public for a limited number of seats. Read the full media advisory and follow us in social media with #W3C20.
+
+   
+   
+      
+         
+            W3C Invites Implementations of Linked Data Platform 1.0
+         
+         
+             19 June 2014  | Archive
+         
+      
+      The Linked Data Platform (LDP) Working Group invites implementation of the Candidate Recommendation of Linked Data Platform 1.0. This document describes a set of best practices and simple approach for a read-write Linked Data architecture, based on HTTP access to web resources that describe their state using the RDF data model. Learn more about the Data Activity.
+
+   
+   
+      
+         
+            Last Call: Vibration API, Ambient Light Events, HTML Media Capture
+         
+         
+             19 June 2014  | Archive
+         
+      
+      The Device APIs Working Group has published three Last Call Working Drafts today:
+
+Vibration API. This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.
+Ambient Light Events. This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.
+HTML Media Capture. The HTML Media Capture specification defines an HTML form extension that facilitates user access to a device’s media capture mechanism, such as a camera, or microphone, from within a file upload control.
+
+Comments on these three specifications are welcome through 24 July 2014. Learn more about the Ubiquitous Web Applications Activity.
+
+   
+   
+      
+         
+            W3C Invites Implementations of DOM Parsing and Serialization
+         
+         
+             17 June 2014  | Archive
+         
+      
+      The Web Applications Working Group invites implementation of the Candidate Recommendation of DOM Parsing and Serialization. This specification defines various APIs for programmatic access to HTML and generic XML parsers by web applications for use in parsing and serializing DOM nodes.
+The group also published a Working Draft of Shadow DOM. This specification describes a method of combining multiple DOM trees into one hierarchy and how these trees interact with each other within a document, thus enabling better composition of the DOM.
+Learn more about the Rich Web Client Activity.
+
+   
+   
+      
+         
+            Last Call: HTML5
+         
+         
+             17 June 2014  | Archive
+         
+      
+      The HTML Working Group has published a Last Call Working Draft of HTML5. This specification defines the 5th major revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features are introduced to help Web application authors, new elements are introduced based on research into prevailing authoring practices, and special attention has been given to defining clear conformance criteria for user agents in an effort to improve interoperability. Comments are welcome through 15 July 2014.
+The group also published a Working Draft of HTML 5.1. HTML was primarily designed as a language for semantically describing scientific documents, although its general design and adaptations over the years have enabled it to be used to describe a number of other types of documents. The main area that has not been adequately addressed by HTML is a vague subject referred to as Web Applications. This standard attempts to rectify this, while at the same time updating the HTML language to address issues raised in the past few years.
+ Learn more about the HTML Activity.
+
+   
+   
+      
+         
+            Core Accessibility API Mappings 1.1 (Core-AAM) First Public Working Draft and WAI-ARIA 1.1 updated Working Draft
+         
+         
+             12 June 2014  | Archive
+         
+      
+      The Protocols and Formats Working Group today published a First Public Working Draft of Core Accessibility API Mappings 1.1 (Core-AAM), which supports the updated Working Draft of Accessible Rich Internet Applications (WAI-ARIA) 1.1. WAI-ARIA provides an ontology of roles, states, and properties that define accessible user interface elements. WAI-ARIA is designed to improve the accessibility and interoperability of web content, particularly web applications. Core-AAM describes how user agents should expose semantics of content languages to accessibility APIs across multiple content technologies (including much of WAI-ARIA). Core-AAM serves as the basis for other specifications to extend the mappings to specific technologies. Learn more from the   call for review e-mail and read about the Web Accessibility Initiative (WAI).
+
+   
+   
+      
+         
+            Three Specifications Published by the Web Applications Working Group
+         
+         
+             12 June 2014  | Archive
+         
+      
+      The Web Applications Working Group has published three documents today:
+
+A First Public Working Draft of DOM Level 3 KeyboardEvent key Values. This specification defines the values for the KeyboardEvent.key attribute, which is defined as part of the Document Object Model (DOM) Level 3 Events Specification. The key attribute contains information about the character generated by the key event.
+A First Public Working Draft of DOM Level 3 KeyboardEvent code Values. This specification defines the values for the KeyboardEvent.code attribute, which is defined as part of the Document Object Model (DOM) Level 3 Events Specification. The code value contains information about 

@@ -1,0 +1,67 @@
+Legacy extended IRIs for XML resource identification
+Legacy extended IRIs for XML resource identification
+W3C Working Group Note 3 November 2008 (BNF comment style corrected in place 2009-07-09)This version:
+  http://www.w3.org/TR/2008/NOTE-leiri-20081103/
+  Latest version:
+  http://www.w3.org/TR/leiri/
+  Previous version:
+  Editors:Henry S. Thompson, University of Edinburgh <ht@inf.ed.ac.uk>Richard Tobin, University of Edinburgh <richard@inf.ed.ac.uk>Norman Walsh, Mark Logic Corporation <norman.walsh@marklogic.com>This document is also available in these non-normative formats: XML.Copyright © 2008 W3C® (MIT, ERCIM, Keio), All Rights Reserved. W3C liability, trademark and document use rules apply.
+AbstractFor historic reasons, some formats have allowed variants of IRIs that
+   are somewhat less restricted in syntax, for example XML system identifiers
+and W3C XML Schema anyURIs.  This document provides a
+   definition and a name (Legacy Extended IRI or LEIRI) for these variants for
+   easy reference.  These variants have to be used with care; they
+   require further processing before being fully interchangeable as
+   IRIs.  New protocols and formats should not use Legacy Extended IRIs.
+Status of this DocumentThis section describes the status of this document at the time of its publication. Other documents may supersede this document. A list of current W3C publications and the latest revision of this technical report can be found in the W3C technical reports index  at http://www.w3.org/TR/.This document is a W3C Working Group Note.  It has been developed
+by the XML Core Working Group, part of the XML Activity in the W3C Ubiquitous Web Domain.Publication as a Working Group Note does not imply endorsement by
+the W3C Membership. This is a draft document and may be updated,
+replaced or obsoleted by other documents at any time. It is
+inappropriate to cite this document as other than work in
+progress.Please send comments about this document to xml-editor@w3.org
+(archived).This document is very closely based on material from [IRI-bis], specifically section 2.2, "ABNF for IRI References and IRIs" and
+section 7, "Legacy Extended IRIs", included here by permission of its
+authors.  It is intended to provide a basis for a single
+normative reference from many XML- and/or HTML-related standards in advance of
+the final publication of [IRI-bis] as an RFC.  When that publication occurs, this specification will be
+re-issued to reference it in place of the extracts given below. This document was produced by a group operating under the 5 February 2004 W3C Patent Policy. W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group; that page also includes instructions for disclosing a patent. An individual who has actual knowledge of a patent which the individual believes contains Essential Claim(s) must disclose the information in accordance with section 6 of the W3C Patent Policy. 
+Table of Contents1 Introduction
+2 Notation
+3 Legacy Extended IRI Syntax
+4 Conversion of Legacy Extended IRIs to IRIs
+5 Characters allowed in Legacy Extended IRIs but not in IRIs
+
+AppendixA References
+
+1 IntroductionFor historic reasons, some formats have allowed variants of IRIs [RFC3987] that
+   are somewhat less restricted in syntax, for example XML system identifiers
+and W3C XML Schema anyURIs.  This document provides a
+   definition and a name (Legacy Extended IRI or LEIRI) for these variants for
+   easier reference.  These variants have to be used with care; they
+   require further processing before being fully interchangeable as 
+   IRIs.  New protocols and formats should not use Legacy
+Extended IRIs.  The provisions in this
+   document also apply to Legacy Extended IRI references.
+
+2 NotationIn this document, characters are referenced by
+   using a prefix of 'U+' followed by four to six hexadecimal digits.In this document, the key words must, must not, required,
+   shall, shall not, should, should not, recommended, may,
+   and optional are to be interpreted as described in [RFC2119].
+3 Legacy Extended IRI SyntaxThe syntax of Legacy Extended IRIs (LEIRIs) and LEIRI references is
+the same as that for IRIs and IRI references except that
+ucschar is redefined. The syntax of this
+   ABNF is described in [RFC5234].  Character numbers are taken from the
+   UCS, without implying any actual binary encoding.  Terminals in the
+   ABNF are characters, not bytes.For consistency with [RFC3987] for IRIs,
+generic LEIRI software should not check
+LEIRIs for conformance to this syntax.Some productions are ambiguous.  The "first-match-wins" (a.k.a.
+   "greedy") algorithm applies.  For details, see [RFC3986].
+Productions changed from RFC3986[1]   LEIRI   ::=   scheme ":" ihier-part [ "?" iquery ]
+                    [ "#" ifragment ][2]   ihier-part   ::=   "//" iauthority ipath-abempty/ ipath-absolute/ ipath-rootless/ ipath-empty[3]   LEIRI-reference   ::=   LEIRI / irelative-ref[4]   absolute-LEIRI   ::=   scheme ":" ihier-part [ "?" iquery ][5]   irelative-ref   ::=   irelative-part [ "?" iquery ] [ "#" ifragment ][6]   irelative-part   ::=   "//" iauthority ipath-abempty/ ipath-absolute/ ipath-noscheme/ ipath-empty[7]   iauthority   ::=   [ iuserinfo "@" ] ihost [ ":" port ][8]   iuserinfo   ::=   *( iunreserved / pct-encoded / sub-delims / ":" )[9]   ihost   ::=   IP-literal / IPv4address / ireg-name[10]   ireg-name   ::=   *( iunreserved / pct-encoded / sub-delims )[11]   ipath   ::=   ipath-abempty   ; begins with "/" or is empty/ ipath-absolute  ; begins with "/" but not "//"/ ipath-noscheme  ; begins with a non-colon segment/ ipath-rootless  ; begins with a segment/ ipath-empty     ; zero characters[12]   ipath-abempty   ::=   *( "/" isegment )[13]   ipath-absolute   ::=   "/" [ isegment-nz *( "/" isegment ) ][14]   ipath-noscheme   ::=   isegment-nz-nc *( "/" isegment )[15]   ipath-rootless   ::=   isegment-nz *( "/" isegment )[16]   ipath-empty   ::=   0<ipchar>[17]   isegment   ::=   *ipchar[18]   isegment-nz   ::=   1*ipchar[19]   isegment-nz-nc   ::=   1*( iunreserved / pct-encoded / sub-delims / "@" ); non-zero-length segment without any colon ":"[20]   ipchar   ::=   iunreserved / pct-encoded / sub-delims / ":"/ "@"[21]   iquery   ::=   *( ipchar / iprivate / "/" / "?" )[22]   ifragment   ::=   *( ipchar / "/" / "?" )[23]   iunreserved   ::=   ALPHA / DIGIT / "-"
+/ "." / "_" / "~" / ucschar[24]   iprivate   ::=   %xE000-F8FF / %xE0000-E0FFF / %xF0000-FFFFD/ %x100000-10FFFD
+Productions unchanged from RFC3986[25]   scheme   ::=   ALPHA *( ALPHA / DIGIT / "+" / "-" / "." )[26]   port   ::=   *DIGIT[27]   IP-literal   ::=   "[" ( IPv6address / IPvFuture  ) "]"[28]   IPvFuture   ::=   "v" 1*HEXDIG "." 1*( unreserved / sub-delims / ":" )[29]   IPv6address   ::=                              6( h16 ":" ) ls32/                       "::" 5( h16 ":" ) ls32/ [               h16 ] "::" 4( h16 ":" ) ls32/ [ *1( h16 ":" ) h16 ] "::" 3( h16 ":" ) ls32/ [ *2( h16 ":" ) h16 ] "::" 2( h16 ":" ) ls32/ [ *3( h16 ":" ) h16 ] "::"    h16 ":"   ls32/ [ *4( h16 ":" ) h16 ] "::"              ls32/ [ *5( h16 ":" ) h16 ] "::"              h16 / [ *6( h16 ":" ) h16 ] "::"[30]   h16   ::=   1*4HEXDIG[31]   ls32   ::=   ( h16
+":" h16 ) / IPv4address [32]   IPv4address   ::=   dec-octet "." dec-octet "." dec-octet "." dec-octet[33]   dec-octet   ::=   DIGIT                 ; 0-9/ %x31-39 DIGIT         ; 10-99/ "1" 2DIGIT            ; 100-199/ "2" %x30-34 DIGIT     ; 200-249/ "25" %x30-35          ; 250-255[34]   pct-encoded   ::=   "%" HEXDIG HEXDIG[35]   unreserved   ::=   ALPHA / DIGIT / "-" / "." / "_" / "~"[36]   reserved   ::=   gen-delims / sub-delims[37]   gen-delims   ::=   ":" / "/" / "?" / "#" / "[" / "]" / "@"[38]   sub-delims   ::=   "!" / "$" / "&" / "'" / "(" / ")"/ "*" / "+" / "," / ";" / "="
+Modified ucschar production[39]   ucschar   ::=   " " / "<" / ">" / '"' / "{" / "}" / "|"/ "\" / "^" / "`" / %x0-1F / %x7F-D7FF/ %xE000-FFFD / %x10000-10FFFFThe restriction on bidirectional formatting characters in
+Section 4.1 of [RFC3987]
+   is lifted.  The iprivate production becomes redundant.Formats that use Legacy Extended IRIs may further restrict the
+  
