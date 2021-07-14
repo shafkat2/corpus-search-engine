@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"> 
+ <head profile="http://www.w3.org/1999/xhtml/vocab"> 
+  <meta charset="utf-8"> 
+  <meta name="Generator" content="Drupal 7 (http://drupal.org)"> 
+  <link rel="alternate" type="application/rss+xml" title="Leddy Library | University of Windsor RSS" href="https://leddy.uwindsor.ca/rss.xml"> 
+  <link rel="shortcut icon" href="https://leddy.uwindsor.ca/sites/default/files/favicon_0_0.ico" type="image/vnd.microsoft.icon"> 
+  <title>Leddy Library | University of Windsor</title> 
+  <meta name="MobileOptimized" content="width"> 
+  <meta name="HandheldFriendly" content="true"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta http-equiv="cleartype" content="on"> 
+  <style>
+@import url("https://leddy.uwindsor.ca/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.accordion.min.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.button.min.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.resizable.min.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.dialog.min.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.tabs.min.css?qv5xoy");
+</style> 
+  <style>
+@import url("https://leddy.uwindsor.ca/sites/all/modules/comment_notify/comment_notify.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/modules/aggregator/aggregator.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/modules/field/theme/field.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/modules/search/search.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/modules/user/user.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/modules/views/css/views.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/modules/ckeditor/css/ckeditor.css?qv5xoy");
+</style> 
+  <style>
+@import url("https://leddy.uwindsor.ca/sites/all/libraries/bootstrap/css/bootstrap.min.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/modules/ctools/css/ctools.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/modules/panels/css/panels.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/modules/jquery_ui_filter/dialog/jquery_ui_filter_dialog.css?qv5xoy");
+</style> 
+  <style>
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/normalize.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/wireframes.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/responsive-sidebars.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/tabs.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/pages.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/blocks.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/navigation.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/views-styles.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/nodes.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/comments.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/forms.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/fields.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/uwin.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/leddy2013.css?qv5xoy");
+@import url("https://leddy.uwindsor.ca/sites/all/themes/leddy2013/css/print.css?qv5xoy");
+</style> 
+  <script src="//code.jquery.com/jquery-1.9.1.min.js"></script> 
+  <script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.9/jquery.min.js'>\x3C/script>")</script> 
+  <script src="https://leddy.uwindsor.ca/misc/jquery-extend-3.4.0.js?v=1.9.1"></script> 
+  <script src="https://leddy.uwindsor.ca/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.9.1"></script> 
+  <script src="https://leddy.uwindsor.ca/misc/jquery.once.js?v=1.2"></script> 
+  <script src="https://leddy.uwindsor.ca/misc/drupal.js?qv5xoy"></script> 
+  <script src="//code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script> 
+  <script>window.jQuery.ui || document.write("<script src='/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")</script> 
+  <script src="https://leddy.uwindsor.ca/sites/all/modules/comment_notify/comment_notify.js?qv5xoy"></script> 
+  <script src="https://leddy.uwindsor.ca/sites/all/modules/jquery_ui_filter/jquery_ui_filter.js?qv5xoy"></script> 
+  <script src="https://leddy.uwindsor.ca/sites/all/libraries/bootstrap/js/bootstrap.min.js?qv5xoy"></script> 
+  <script src="https://leddy.uwindsor.ca/sites/all/modules/jquery_ui_filter/accordion/jquery_ui_filter_accordion.js?qv5xoy"></script> 
+  <script src="https://leddy.uwindsor.ca/sites/all/modules/jquery_ui_filter/dialog/jquery_ui_filter_dialog.js?qv5xoy"></script> 
+  <script src="https://leddy.uwindsor.ca/sites/all/modules/jquery_ui_filter/tabs/jquery_ui_filter_tabs.js?qv5xoy"></script> 
+  <script src="https://leddy.uwindsor.ca/sites/all/modules/google_analytics/googleanalytics.js?qv5xoy"></script> 
+  <script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-2478632-5", {"cookieDomain":"auto"});ga("send", "pageview");</script> 
+  <script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"leddy2013","theme_token":"xbZNK7kG9PQad6P3N5DsFQco4w1pPBWC9srKBtUVV_o","js":{"0":1,"1":1,"\/\/code.jquery.com\/jquery-1.9.1.min.js":1,"2":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/code.jquery.com\/ui\/1.10.2\/jquery-ui.min.js":1,"3":1,"sites\/all\/modules\/comment_notify\/comment_notify.js":1,"sites\/all\/modules\/jquery_ui_filter\/jquery_ui_filter.js":1,"sites\/all\/libraries\/bootstrap\/js\/bootstrap.min.js":1,"sites\/all\/modules\/jquery_ui_filter\/accordion\/jquery_ui_filter_accordion.js":1,"sites\/all\/modules\/jquery_ui_filter\/dialog\/jquery_ui_filter_dialog.js":1,"sites\/all\/modules\/jquery_ui_filter\/tabs\/jquery_ui_filter_tabs.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"sites\/all\/modules\/comment_notify\/comment_notify.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/libraries\/bootstrap\/css\/bootstrap.min.css":1,"sites\/all\/libraries\/bootstrap\/css\/bootstrap-theme.min.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/jquery_ui_filter\/dialog\/jquery_ui_filter_dialog.css":1,"sites\/all\/themes\/zen\/system.base.css":1,"sites\/all\/themes\/leddy2013\/system.menus.css":1,"sites\/all\/themes\/zen\/system.messages.css":1,"sites\/all\/themes\/zen\/system.theme.css":1,"sites\/all\/themes\/zen\/comment.css":1,"sites\/all\/themes\/zen\/node.css":1,"sites\/all\/themes\/leddy2013\/css\/normalize.css":1,"sites\/all\/themes\/leddy2013\/css\/wireframes.css":1,"sites\/all\/themes\/leddy2013\/css\/responsive-sidebars.css":1,"sites\/all\/themes\/leddy2013\/css\/tabs.css":1,"sites\/all\/themes\/leddy2013\/css\/pages.css":1,"sites\/all\/themes\/leddy2013\/css\/blocks.css":1,"sites\/all\/themes\/leddy2013\/css\/navigation.css":1,"sites\/all\/themes\/leddy2013\/css\/views-styles.css":1,"sites\/all\/themes\/leddy2013\/css\/nodes.css":1,"sites\/all\/themes\/leddy2013\/css\/comments.css":1,"sites\/all\/themes\/leddy2013\/css\/forms.css":1,"sites\/all\/themes\/leddy2013\/css\/fields.css":1,"sites\/all\/themes\/leddy2013\/css\/uwin.css":1,"sites\/all\/themes\/leddy2013\/css\/leddy2013.css":1,"sites\/all\/themes\/leddy2013\/css\/print.css":1}},"jQueryUiFilter":{"disabled":0,"accordionHeaderTag":"h3","accordionOptions":{"active":0,"animated":"slide","autoHeight":"false","clearStyle":"true","collapsible":"true","event":"click","scrollTo":0,"history":"false"},"dialogWhitelist":"","dialogOptions":{"closeOnEscape":"true","closeText":"Close","closeButton":"false","dialogClass":"","draggable":"true","height":"auto","hide":"","show":"","width":"auto","maxHeight":"false","maxWidth":"false","minHeight":"150","minWidth":"150","modal":"false","position":"center","resizable":"true","stack":"true","title":"","dialogFeatures":{"form-onsubmit_close":1,"page-logo":0,"page-site_name":0,"page-site_slogan":0,"page-mission":0,"page-main_menu":0,"page-secondary_menu":0,"page-title":1,"page-title_prefix":0,"page-title_suffix":0,"page-tabs":1,"page-breadcrumb":0,"page-action_links":0,"page-feed_icons":0,"page-footer_message":0,"page-regions":0}},"tabsOptions":{"collapsible":"false","event":"click","fx":0,"paging":0,"selected":"","scrollTo":0,"history":"false"},"tabsHeaderTag":"h3"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});</script> <!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5shiv.min.js"></script>
+    <![endif]--> 
+ </head> 
+ <body class="html front not-logged-in two-sidebars page-node"> 
+  <div id="page-wrapper"> 
+   <div class="layout-center"> 
+    <div id="header-wrapper"> 
+     <header id="header" role="banner"> <a href="/" title="Leddy Library home" rel="home" id="logo"><img src="https://leddy.uwindsor.ca/sites/all/themes/leddy2013/logo.png" alt="Leddy Library home"></a> 
+      <nav id="primary-menu" role="navigation"> 
+       <ul class="links inline"> 
+        <li class="primary-1 first"><a href="https://uwindsor.ca/about-the-university" class="primary-menu-link">About the University</a></li> 
+        <li class="primary-2"><a href="https://uwindsor.ca/academic-programs" class="primary-menu-link">Academic Programs</a></li> 
+        <li class="primary-3"><a href="https://uwindsor.ca/research" class="primary-menu-link">Research</a></li> 
+        <li class="primary-4"><a href="https://uwindsor.ca/admissions" class="primary-menu-link">Admissions</a></li> 
+        <li class="primary-5"><a href="https://uwindsor.ca/student-life" class="primary-menu-link">Student Life</a></li> 
+        <li class="primary-6"><a href="https://uwindsor.ca/giving" class="primary-menu-link">Giving</a></li> 
+        <li class="primary-7"><a href="https://learn.uwindsor.ca/international-students" class="primary-menu-link">International</a></li> 
+       </ul> 
+      </nav> 
+     </header> 
+    </div> 
+    <div id="audience-wrapper"> 
+     <div id="audience"> 
+      <nav id="audience-menu" role="navigation"> 
+       <h2>Gateways for:</h2> 
+       <ul class="links inline clearfix"> 
+        <li class="audience-1 first"><a class="audience-menu-link" href="https://uwindsor.ca/future-students">Future Students</a></li> 
+        <li class="audience-2"><a class="audience-menu-link" href="https://uwindsor.ca/current-students">Current Students</a></li> 
+        <li class="audience-3"><a class="audience-menu-link" href="https://uwindsor.ca/faculty-staff">Faculty &amp; Staff</a></li> 
+        <li class="audience-4 last"><a class="audience-menu-link" href="https://uwindsor.ca/alumni">Alumni</a></li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div>  
+    <main class="layout-3col__right-content" role="main"> 
+     <div id="page-border">
+      <div id="page"> 
+       <div id="brand"> 
+        <h2><a href="/" title="Leddy Library home" rel="home">Leddy Library</a></h2> 
+       </div> 
+       <div id="main"> 
+        <div class="region region-highlighted"> 
+         <div class="block block-block first last odd" id="block-block-73"> 
+          <div class="alert alert-warning"> 
+           <p class="paragraph"><span style="color:#000000;"><span style="font-size:12pt"><span style="vertical-align:baseline"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif"><strong>Access to <a href="https://leddy.uwindsor.ca/reserve-study-space">Study Space,</a>&nbsp;<a href="https://leddy.uwindsor.ca/pc-booking">Computer Workstations</a></strong></span></span></span></span></span><span style="color:#2980b9;"><span style="font-size:12pt"><span style="vertical-align:baseline"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif"><strong>,</strong></span></span></span></span></span><span style="color:#000000;"><span style="font-size:12pt"><span style="vertical-align:baseline"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif"><strong>&nbsp;and <a href="https://leddy.uwindsor.ca/contactless-pickup-and-digital-delivery">Contactless&nbsp;Pickup</a> is&nbsp;available Monday - Friday 9:00 am - 4:00 pm.</strong></span></span></span></span></span></p> 
+           <p class="paragraph" paraeid="{22ccd106-660d-4bc5-9d69-e4eb79a3e29c}{82}" paraid="1953231573"><span style="font-size:12pt"><span style="vertical-align:baseline"><span style="user-select:text"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="overflow-wrap:break-word"><span style="font-kerning:none"><span style="font-family:&quot;Times New Roman&quot;,serif"><span data-contrast="none" style="user-select:text" xml:lang="EN-US"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="font-variant-ligatures:none !important"><span data-ccp-parastyle="Normal (Web)" style="user-select:text"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">Remote hours of operation are 8:30 am - 4:30 pm from Monday to Friday. Please refer to our homepage and </span></span></span></span></span></span></span></span></span><span style="font-size:9.0pt"><span style="font-family:&quot;Segoe UI&quot;,sans-serif"><a href="http://leddy.uwindsor.ca/library-services-during-disruption" style="user-select:text; -webkit-user-drag:none; -webkit-tap-highlight-color:transparent; color:inherit; cursor:text" target="_blank"><span style="color:#2980b9;"><span data-ccp-charstyle="Hyperlink" style="user-select:text"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="font-size:12.0pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="text-decoration:none"><span data-contrast="none" style="user-select:text" xml:lang="EN-US"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="font-variant-ligatures:none !important">Frequently Asked Questions</span></span></span></span></span></span></span></span></span></span></span></a></span></span><span data-contrast="none" style="user-select:text" xml:lang="EN-US"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="font-variant-ligatures:none !important"><span data-ccp-parastyle="Normal (Web)" style="user-select:text"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"> for the latest updates on our remote services, accessing the library building, and hours of operation. Be sure to</span><span style="color:#2980b9;"> </span></span></span></span></span></span></span></span></span><span style="font-size:9.0pt"><span style="font-family:&quot;Segoe UI&quot;,sans-serif"><a href="https://ca01.primo.exlibrisgroup.com/discovery/login?vid=01UTON_UW:UWINDSOR" style="user-select:text; -webkit-user-drag:none; -webkit-tap-highlight-color:transparent; color:inherit; cursor:text" target="_blank"><span style="color:#2980b9;"><span data-ccp-charstyle="Hyperlink" style="user-select:text"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="font-size:12.0pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="text-decoration:none"><span data-contrast="none" style="user-select:text" xml:lang="EN-US"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="font-variant-ligatures:none !important">login to your account</span></span></span></span></span></span></span></span></span></span></span></a></span></span><span data-contrast="none" style="user-select:text" xml:lang="EN-US"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="font-variant-ligatures:none !important"><span data-ccp-parastyle="Normal (Web)" style="user-select:text"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"> to access all of our resources from off-campus. </span><a href="https://leddy.uwindsor.ca/loan-policy-changes"><span style="color:#2980b9;">Changes to our loan policies</span></a><span style="color:black"> may cause issues renewing items for some users at this time.</span></span></span></span></span></span></span></span></span>&nbsp;</span></span></span></span></span></span></span></span></p> 
+           <p class="paragraph" paraeid="{22ccd106-660d-4bc5-9d69-e4eb79a3e29c}{98}" paraid="1244172938"><span style="font-size:12pt"><span style="vertical-align:baseline"><span style="user-select:text"><span style="-webkit-user-drag:none"><span style="-webkit-tap-highlight-color:transparent"><span style="overflow-wrap:break-word"><span style="font-kerning:none"><span style="font-family:&quot;Times New Roman&quot;,serif">&nbsp;</span></span></span></span></span></span></span></span></p> 
+          </div> 
+         </div> 
+        </div> 
+        <div id="content" class="column" role="main"> 
+         <div class="region region-home-content"> 
+          <div class="block block-block first odd" id="block-block-27"> 
+           <script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+        function searchPrimo() {
+document.getElementById("primoQuery").value = "any,contains," + document.getElementById("primoQueryTemp").value.replace(/[,]/g, " ");
+document.forms["searchForm"].submit();
+}
+
+        function searchPrimoReserves() {
+            document.getElementById("primoQueryReserves").value = "any,contains," + document.getElementById("primoQueryReservesTemp").value;
+            document.forms["primoSearchReservesForm"].submit();
+        }
+        function searchPrimoCatalogue() {
+            document.getElementById("primoQueryCatalogue").value = "any,contains," + document.getElementById("primoQueryCatalogueTemp").value;
+            document.forms["primoSearchCatalogueForm"].submit();
+        }
+        
+        (function(){
+            if (window.location.hash) {
+                window.location.hash;
+            } 
+        })();
+
+
+    
+//--><!]]>
+</script>
+           <div class="box">
+            <a href="http://leddy.uwindsor.ca/using-omni"><img alt="Omni search logo with cube composed of points" id="omni-logo" src="sites/default/files/omni-150px.png"></a> 
+            <form action="https://ca01.primo.exlibrisgroup.com/discovery/search" enctype="application/x-www-form-urlencoded; charset=utf-8" id="simple" method="get" name="searchForm" onsubmit="searchPrimo()" target="_self"> <!-- Customizable Parameters -->
+             <p><input name="vid" type="hidden" value="01UTON_UW:UWINDSOR"><input name="tab" type="hidden" value="Everything"><input name="search_scope" type="hidden" value="MyInst_and_CI"><input name="mode" type="hidden" value="basic"></p> <!-- Fixed parameters -->
+             <p> <input name="displayMode" type="hidden" value="full"><input name="bulkSize" type="hidden" value="10"><input name="highlight" type="hidden" value="true"><input name="dum" type="hidden" value="true"><input id="primoQuery" name="query" type="hidden"><input name="displayField" type="hidden" value="all"></p> <!-- Enable this if "Expand My Results" is enabled by default in Views Wizard -->
+             <p> <input name="pcAvailabiltyMode" type="hidden" value="true"><input id="primoQueryTemp" placeholder="Search Omni for books, journals, articles, videos..." size="55" type="text" value=""><input alt="Search" id="goButton" onclick="searchPrimo()" title="Search" type="button" value="Search">&nbsp;</p>
+            </form> 
+            <ul class="box-list">
+             <li class="box-menu"><a href="http://led.uwindsor.ca/advanced-search">Advanced Search</a></li> 
+             <li class="box-menu"><a href="http://led.uwindsor.ca/journallist">Journals</a></li> 
+             <li class="box-menu"><span class="legal"><a href="using-omni">Omni Guide</a></span></li> 
+             <li class="box-menu"><a href="https://ca01.primo.exlibrisgroup.com/discovery/account?vid=01UTON_UW:UWINDSOR">My Account</a></li> 
+            </ul>
+           </div> 
+          </div> 
+          <div class="block block-block even" id="block-block-74"> 
+           <p><a href="https://leddy.uwindsor.ca/reserve-study-space"><img alt="" src="/sites/default/files/images/study%20space.png"></a></p> 
+           <p><a href="http://leddy.uwindsor.ca/pc-booking"><img alt="Computer Workstations" src="/sites/default/files/images/Computer%20Access.png"></a></p> 
+           <p><a href="http://leddy.uwindsor.ca/contactless-pickup-and-digital-delivery"><img alt="Contactless Pickup &amp; Digital Delivery" src="/sites/default/files/images/Contactless%20Pickup%20Digital.png"></a></p> 
+           <p><a href="http://leddy.uwindsor.ca/research-help"><img alt="Research Appointments" src="/sites/default/files/images/research%20appointments.png"></a></p> 
+           <p>&nbsp;</p> 
+          </div> 
+          <div class="block block-block odd" id="block-block-21"> 
+           <h2><span style="font-size:14px;">Summer 2021&nbsp;Service Hours</span></h2> 
+           <p><iframe frameborder="0" height="300" scrolling="no" src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=c5f952j09p9sd57dpo2safncno%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=America%2FToronto" width="498"></iframe></p> 
+           <p>&nbsp;</p> 
+           <p><a href="http://leddy.uwindsor.ca/events">view the monthly events calendar</a></p> 
+          </div> 
+          <div class="block block-block last even" id="block-block-14"> 
+           <p>&nbsp;</p> 
+           <p>Leddy Library is the University of Windsor's central library.</p> 
+           <div> 
+            <div> 
+             <div>
+              Phone : 519-253-3000 ext. 3402
+             </div> 
+            </div> 
+            <div> 
+             <div>
+              Email : <a href="mailto:leddyreference@uwindsor.ca">leddyreference@uwindsor.ca</a>
+             </div> 
+            </div> 
+            <div> 
+             <div>
+              Map : <a href="http://web2.uwindsor.ca/pac/campusmap/index.php?Leddy%20Library%20Main;42.307649;-83.067788">Leddy Library Main Building</a>
+             </div> 
+            </div> 
+           </div> 
+           <p>&nbsp;</p> 
+          </div> 
+         </div> 
+        </div> <!-- /#content --> 
+        <aside class="sidebars"> 
+         <div class="region region-sidebar-first column sidebar">
+          <div class="section"> 
+           <div class="block block-menu first odd" role="navigation" id="block-menu-menu-leddy-quick-menu"> 
+            <h2 class="block__title">Search</h2> 
+            <ul class="menu">
+             <li class="menu__item is-leaf first leaf"><a href="http://led.uwindsor.ca/catalogue" title="search the library catalogue for books and videos" class="menu__link">Library Catalogue</a></li> 
+             <li class="menu__item is-leaf leaf"><a href="/research-tools" title="find journals articles and research tools" class="menu__link">Journal Articles &amp; Research Tools</a></li> 
+             <li class="menu__item is-leaf leaf"><a href="http://led.uwindsor.ca/journallist" title="" class="menu__link">Journal List</a></li> 
+             <li class="menu__item is-leaf leaf"><a href="/interlibrary-loan" title="" class="menu__link">Order From Other Libraries</a></li> 
+             <li class="menu__item is-leaf leaf"><a href="https://uwindsor.alma.exlibrisgroup.com/leganto/public/01UTON_UW/searchlists?auth=CAS" title="Information for students on how to find course reserve readings" class="menu__link">Course Readings</a></li> 
+             <li class="menu__item is-leaf last leaf"><a href="https://ca01.primo.exlibrisgroup.com/discovery/collectionDiscovery?vid=01UTON_UW:UWINDSOR" title="" class="menu__link">Featured Collections</a></li> 
+            </ul> 
+           </div> 
+           <div class="block block-menu even" role="navigation" id="block-menu-menu-leddy-links-menu"> 
+            <h2 class="block__title">Help</h2> 
+            <ul class="menu">
+             <li class="menu__item is-leaf first leaf"><a href="/research-help" title="" class="menu__link">Research Help</a></li> 
+             <li class="menu__item is-leaf leaf"><a href="/adc" title="Academic Data Centre" class="menu__link">Statistics and Data Help</a></li> 
+             <li class="menu__item is-leaf leaf"><a href="/writing-help" title="" class="menu__link">Writing Help</a></li> 
+             <li class="menu__item is-leaf leaf"><a href="/computer-help" title="" class="menu__link">Computer Help</a></li> 
+             <li class="menu__item is-leaf leaf"><a href="/services-leddy-library" title="" class="menu__link">Services</a></li> 
+             <li class="menu__item is-leaf leaf"><a href="/borrowing-library-materials" title="" class="menu__link">Borrowing</a></li> 
+             <li class="menu__item is-leaf leaf"><a href="/course-resources-faculty" title="" class="menu__link">Submit Course Resource Lists</a></li> 
+             <li class="menu__item is-leaf leaf"><a href="/contact-us" title="" class="menu__link">Contact Us</a></li> 
+             <li class="menu__item is-leaf leaf"><a href="/about" title="" class="menu__link">About Leddy</a></li> 
+             <li class="menu__item is-leaf last leaf"><a href="/hours" title="" class="menu__link">Hours</a></li> 
+            </ul> 
+           </div> 
+           <div class="block block-views last odd" id="block-views-leddy-news-block"> 
+            <h2 class="block__title"><a href="http://leddy.uwindsor.ca/leddy-news">Leddy News</a></h2> 
+            <div class="view view-leddy-news view-id-leddy_news view-display-id-block view-dom-id-842e200a79fa176528b19fdac727b41b"> 
+             <div class="view-header"> 
+              <p><a href="http://eepurl.com/c1GUrX">subscribe to Leddy News</a></p> 
+             </div> 
+             <div class="view-content"> 
+              <div class="views-row views-row-1 views-row-odd views-row-first"> 
+               <div class="views-field views-field-title"> <span class="field-content"><a href="/study-space-re-opens-leddy-library">Study space re-opens at Leddy Library</a></span> 
+               </div> 
+              </div> 
+              <div class="views-row views-row-2 views-row-even"> 
+               <div class="views-field views-field-title"> <span class="field-content"><a href="/recipe-closes-fry-bread-challenge">Recipe closes fry bread challenge</a></span> 
+               </div> 
+              </div> 
+              <div class="views-row views-row-3 views-row-odd"> 
+               <div class="views-field views-field-title"> <span class="field-content"><a href="/select-services-re-opening-leddy-library">Select services re-opening at Leddy Library</a></span> 
+               </div> 
+              </div> 
+              <div class="views-row views-row-4 views-row-even views-row-last"> 
+               <div class="views-field views-field-title"> <span class="field-content"><a href="/fry-bread-challenge-continues-traditional-bannock-muskoday-first-nation">Fry Bread Challenge continues with traditional bannock from Muskoday First Nation</a></span> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div>
+         </div> 
+         <div class="region region-sidebar-second column sidebar">
+          <div class="section"> 
+           <div class="block block-block first odd" id="block-block-47"> 
+            <p class="rtecenter"><a href="http://leddy.uwindsor.ca/ask-leddy"><img alt="Ask Leddy with question mark in background. Click here." src="/sites/default/files/images/ask%20leddy.png"></a></p> 
+           </div> 
+           <div class="block block-block even" id="block-block-36"> 
+            <p class="rtecenter"><a href="https://blackboard.uwindsor.ca/" target="_blank"><img alt="Blackboard login button" src="/sites/default/files/bb_login_2.png"></a></p> 
+           </div> 
+           <div class="block block-block last odd" id="block-block-19"> 
+            <div id="social-net">
+             <a href="http://www.facebook.com/Leddy.Library" target="_blank"><img alt="Facebook" src="/sites/default/files/images/iconfinder_1_Facebook_colored_svg_copy_5296499%20(2).png" style="width: 25px; height: 25px;"></a>&nbsp; &nbsp;<a href="http://twitter.com/LeddyLibrary" target="_blank"><img alt="Twitter" src="/sites/default/files/images/iconfinder_1_Twitter3_colored_svg_5296516%20(1).png" style="width: 25px; height: 25px;"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/leddylibrary/" target="_blank"><img alt="Instagram" src="/sites/default/files/images/iconfinder_1_Instagram_colored_svg_1_5296765%20(1).png" style="width: 25px; height: 25px;"></a>&nbsp; &nbsp;<a href="http://www.youtube.com/user/uwinleddy" target="_blank"><img alt="YouTube" src="/sites/default/files/images/iconfinder_1_Youtube_colored_svg_5296521%20(1).png" style="width: 25px; height: 25px;"></a>&nbsp; &nbsp;<a href="leddy-news.xml" target="_blank"><img alt="Subscribe to Leddy News" src="/sites/default/files/images/rss.png" style="width: 24px; height: 24px;"></a>
+            </div> 
+           </div> 
+          </div>
+         </div> 
+        </aside><!-- /.sidebars --> 
+       </div> <!-- /#main --> 
+      </div>
+     </div> <!-- /#page . /#page-border --> 
+    </main> 
+   </div> 
+   <div id="footer-wrapper"> 
+    <footer> 
+     <div id="footer"> 
+      <div class="item-list"> 
+       <ul class="inline footer-links"> 
+        <li class="first"><a href="/contact-us">Contact the Library</a></li> 
+        <li><a href="https://apps.uwindsor.ca/uwincpb/jsp/DirectoryServices.jsp">University Directory</a></li> 
+        <li class="last"><a href="https://web2.uwindsor.ca/pac/campusmap/index.php?Leddy%20Library%20Main;42.307649;-83.067788">Campus Map</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <div id="bottom-wrapper"> 
+    <div id="bottom"> 
+     <nav id="bottom-navigation"> 
+      <div class="region region-site-footer-content"> 
+       <div class="block block-menu first odd" role="navigation" id="block-menu-menu-library-places"> 
+        <ul class="menu">
+         <li class="menu__item is-leaf first leaf"><a href="http://leddy.uwindsor.ca/archives" title="" class="menu__link">University Archives</a></li> 
+         <li class="menu__item is-leaf leaf"><a href="/archives/rare-books" title="" class="menu__link">Rare Books &amp; Special Collections</a></li> 
+         <li class="menu__item is-leaf leaf"><a href="/adc" title="" class="menu__link">Academic Data Centre</a></li> 
+         <li class="menu__item is-leaf leaf"><a href="http://www.uwindsor.ca/rdc/" title="" class="menu__link">Statistics Canada Research Data Centre</a></li> 
+         <li class="menu__item is-leaf last leaf"><a href="http://www.uwindsor.ca/law/library/" title="" class="menu__link">Law Library</a></li> 
+        </ul> 
+       </div> 
+       <div class="block block-menu even" role="navigation" id="block-menu-menu-campus-copyright-informatio"> 
+        <ul class="menu">
+         <li class="menu__item is-leaf first leaf"><a href="/copyright" title="" class="menu__link">Campus Copyright Information</a></li> 
+         <li class="menu__item is-leaf leaf"><a href="/copyright-guidelines-requirements" title="" class="menu__link">Copyright Guidelines &amp; Requirements</a></li> 
+         <li class="menu__item is-leaf leaf"><a href="/copyright-resources" title="" class="menu__link">Copyright Resources</a></li> 
+         <li class="menu__item is-leaf leaf"><a href="/campus-copyright-updates" title="" class="menu__link">Campus Copyright Updates</a></li> 
+         <li class="menu__item is-leaf leaf"><a href="/notice-collection-personal-information" title="" class="menu__link">Collection of Personal Information </a></li> 
+         <li class="menu__item is-leaf last leaf"><a href="https://sites.library.ualberta.ca/copyright/" title="" class="menu__link">Alberta Copyright Modules</a></li> 
+        </ul> 
+       </div> 
+       <div class="block block-menu odd" role="navigation" id="block-menu-menu-leddy-places-virtual"> 
+        <ul class="menu">
+         <li class="menu__item is-leaf first leaf"><a href="http://scholar.uwindsor.ca/" title="" class="menu__link">Scholarship @ UWindsor</a></li> 
+         <li class="menu__item is-leaf leaf"><a href="/open-access" title="" class="menu__link">Open Access Windsor</a></li> 
+         <li class="menu__item is-leaf leaf"><a href="http://cdigs.uwindsor.ca" title="" class="menu__link">Centre for Digital Scholarship </a></li> 
+         <li class="menu__item is-leaf leaf"><a href="http://swoda.uwindsor.ca/" title="" class="menu__link">Southwestern Ontario Digital Archive</a></li> 
+         <li class="menu__item is-leaf last leaf"><a href="http://leddy.uwindsor.ca/polish-book-fund" title="" class="menu__link">Polonia Centre Polish book fund</a></li> 
+        </ul> 
+       </div> 
+       <div class="block block-menu even" role="navigation" id="block-menu-menu-leddy-nav-menu"> 
+        <ul class="menu">
+         <li class="menu__item is-leaf first leaf"><a href="/wellness-and-support-resources" title="" class="menu__link">Mental Health Resources</a></li> 
+         <li class="menu__item is-leaf leaf"><a href="http://www.uwindsor.ca/" title="University of Windsor home page" class="menu__link">University Home</a></li> 
+         <li class="menu__item is-leaf leaf"><a href="/" title="Leddy Library home page" class="menu__link active">Leddy Library Home</a></li> 
+         <li class="menu__item is-leaf leaf"><a href="/about" title="Location, Borrowing Policies of Library Materials, Quiet and Study Spaces" class="menu__link">About the Library</a></li> 
+         <li class="menu__item is-leaf last leaf"><a href="/sitemap" title="search and sitemap" class="menu__link">Sitemap</a></li> 
+        </ul> 
+       </div> 
+       <div class="block block-block last odd" id="block-block-62"> 
+        <p></p> <!-- Start of LiveChat (www.livechatinc.com) code -->
+        <script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+
+window.__lc = window.__lc || {};
+
+window.__lc.license = 9479490;
+
+(function() {
+
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+
+})();
+
+
+//--><!]]>
+</script><!-- End of LiveChat code --> 
+       </div> 
+      </div> 
+     </nav> 
+    </div> 
+   </div> 
+   <script>Drupal.jQueryUiFilter.globalOptions('accordion');</script> 
+   <script>Drupal.jQueryUiFilter.globalOptions('tabs');</script> 
+  </div>  
+ </body>
+</html>
