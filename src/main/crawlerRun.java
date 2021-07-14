@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import textprocessing.DataNode;
 import textprocessing.WebPageProcessor;
 
 public class crawlerRun {
@@ -25,6 +26,9 @@ public class crawlerRun {
 		WebPageProcessor Processor = new WebPageProcessor(listofPages,listofText);
 		
 		Processor.ProcessPage();
+		DataNode test = Processor.trieFormed();
+		
+		System.out.println(test.getSt().get("Oil"));
 		
 	}
 }

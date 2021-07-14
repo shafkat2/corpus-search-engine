@@ -51,7 +51,9 @@ public class WebPageProcessor {
 		    	String lines = sc.nextLine();
 		    	StringTokenizer baka = new StringTokenizer(lines);
 		    	while(baka.hasMoreTokens()) {
+		    		
 					String Token = baka.nextToken();
+					
 					if (ht.containsKey(Token.length())){
 						ht.get(Token.length()).add(Token);
 					}else {
