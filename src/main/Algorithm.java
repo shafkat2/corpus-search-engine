@@ -42,12 +42,8 @@ public class Algorithm {
 			HashMap<Integer,List<Integer>> temp = st.get(word); 
 			for (Map.Entry mapElement : temp.entrySet()) {
 				int key = (int)mapElement.getKey();
-
-			
 				maxValue = Math.max(maxValue, key);
-				
-				
-        
+				   
 			}
 			for(int index: temp.get(maxValue)) {
 				
