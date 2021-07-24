@@ -8,6 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 
 public class webcrawler {
 		public static final int NO_OF_URLS = 1;
@@ -24,7 +25,7 @@ public class webcrawler {
 		List<String> tmpUrlsList = new ArrayList<String>();
 		
 		try {
-			org.jsoup.nodes.Document doc = Jsoup.connect(url).get();
+			Document doc = Jsoup.connect(url).get();
 			String linkRegex = "(http://|https://)(www.)?.*?[.net|.com|.org|.ca].*?\"\\s?";
 
 			String matchedUrl = "";
@@ -64,7 +65,7 @@ public class webcrawler {
 			for (String url : urlsList) {
 				System.out.println(url);
 				try {
-					org.jsoup.nodes.Document doc = Jsoup.connect(url).get();
+					Document doc = Jsoup.connect(url).get();
 					
 					String html = doc.html();
 					String title = doc.title();

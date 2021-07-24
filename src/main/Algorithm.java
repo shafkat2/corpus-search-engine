@@ -24,15 +24,6 @@ public class Algorithm {
 
 
 
-	
-
-
-
-
-
-
-
-
 	public List<String> websiteLink(String word,List<String> ListOfSites){
 		
 		List<String> answer = new ArrayList<String>();
@@ -74,18 +65,4 @@ public class Algorithm {
 		
 	}
 	
-	public List<String> LRUCache(String word){
-		
-		
-		List<String> answer = new ArrayList<String>();
-		
-		//code here return answer
-		
-		
-		return answer;
-		
-		
-		
-		
-	}
 }

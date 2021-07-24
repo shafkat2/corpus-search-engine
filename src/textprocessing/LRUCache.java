@@ -15,9 +15,9 @@ public class LRUCache {
     private HashMap<String,List<String>> hashMap;
  
     // maximum capacity of cache
-    private final int CACHE_SIZE;
+    private int CACHE_SIZE;
  
-    LRUCache(int capacity) {
+    public LRUCache(int capacity) {
         doublyQueue = new LinkedList<>();
         hashMap = new HashMap<String,List<String>>();
         CACHE_SIZE = capacity;
@@ -40,7 +40,7 @@ public class LRUCache {
         hashMap.put(page,WebPages);
     }
     
-    public HashMap<String,List<String>> getHashSet(String page) {
+    public HashMap<String,List<String>> getHashSet() {
     	return hashMap;
    
     }
@@ -49,7 +49,7 @@ public class LRUCache {
     public void display() {
         Iterator<String> itr = doublyQueue.iterator();
         while (itr.hasNext()) {
-            System.out.print(itr.next() + " ");
+            System.out.print(itr.next() + ", ");
         }
     }
 }
