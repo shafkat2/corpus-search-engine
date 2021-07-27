@@ -24,7 +24,7 @@ The main features of the search engine are
    ![image](https://user-images.githubusercontent.com/41389917/126972484-da6a1662-e7f3-48ad-8dde-48d06bdb3646.png)
 
     # Suggested words: The frequency of the words are stored in a hashmap and if the words that was searched does not exist in the crawled pages then few words are suggested based on the simiarlity
-        -> Edit Distance(KMP)
+        -> Edit Distance(kmp)
         -> quick Sort
    ![image](https://user-images.githubusercontent.com/41389917/126972537-78576acb-4a49-4cc1-b3ec-e7b05d20c147.png)
    
