@@ -41,5 +41,6 @@ The main features of the search engine are
 
 # References
 [1] D. Lam, datqlam/web-search-engine. 2020. Accessed: Jul. 26, 2021. [Online]. Available: https://github.com/datqlam/web-search-engine
+
 [2] “LRU Cache Implementation - GeeksforGeeks.” https://www.geeksforgeeks.org/lru-cache-implementation/ (accessed Jul. 29, 2021).
 
