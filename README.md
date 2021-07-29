@@ -1,4 +1,4 @@
-﻿# web-search-engine
+﻿# corpus-search-engine
 University of Windsor - COMP8547-4-R-2019F Advanced Computing Concepts - Final Project - Group 14.
 
 The application uses java to build a search engine.
