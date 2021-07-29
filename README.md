@@ -28,7 +28,7 @@ The main features of the search engine are
         -> quick Sort
    ![image](https://user-images.githubusercontent.com/41389917/126972537-78576acb-4a49-4cc1-b3ec-e7b05d20c147.png)
    
-     # cache Data: The recently searched data is stored in a LRU cache, LRU cache keeps the recently searched value at the top, also if the user searches for the same value that was searched before, cahce data is turned making the search for website pages even faster
+     # cache Data[2]: The recently searched data is stored in a LRU cache, LRU cache keeps the recently searched value at the top, also if the user searches for the same value that was searched before, cahce data is turned making the search for website pages even faster
         -> Hashmap
         -> Queue
         -> Array
@@ -40,4 +40,6 @@ The main features of the search engine are
 
 
 # References
-[1]D. Lam, datqlam/web-search-engine. 2020. Accessed: Jul. 26, 2021. [Online]. Available: https://github.com/datqlam/web-search-engine
+[1] D. Lam, datqlam/web-search-engine. 2020. Accessed: Jul. 26, 2021. [Online]. Available: https://github.com/datqlam/web-search-engine
+[2] “LRU Cache Implementation - GeeksforGeeks.” https://www.geeksforgeeks.org/lru-cache-implementation/ (accessed Jul. 29, 2021).
+
